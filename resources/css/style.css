@@ -1,0 +1,230 @@
+/* === UNIVERSAL STYLES === */
+
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+h5 {
+    font-size: .75em;
+}
+
+main {
+    padding-top: 60px;
+}
+
+
+/* === L0GO AND NAVIGATION STYLES === */
+
+a {
+    margin-left: 25px;
+    margin-right: 5px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    z-index: 20;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    flex: 4;
+    text-decoration: underline;
+    padding-right: 10px;
+}
+
+.logo {
+    flex: 1;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.logo img {
+    height: 50px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+}
+
+
+/* === TEA COZY MISSION STYLES === */
+
+#mission-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+    width: 1200px;
+    background-image: url("../images/background.jpg");
+    margin: 0 auto;
+    
+}
+
+.mission-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+
+/* === FEATURED TEAS STYLES === */
+
+
+/* featured tea main section */
+
+#featured-section {
+    padding-top: 70px;
+    margin-bottom: 55px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.image-container img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 0;
+}
+
+.image-container figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+/* tea images */
+
+.berry {
+    margin-left: 0;
+    margin-right: 25px;
+}
+
+.bizarre {
+    margin-left: 25px;
+}
+
+.donuts {
+    margin-right: 0px;
+    margin-left: 25px;
+}
+
+.myrtle {
+    margin-right: 25px;
+}
+
+.spiced {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+/* === TEA COZY LOCATION STYLES === */
+
+/* main section with background image */
+
+#location-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/locations.jpg");
+    margin: 0 auto;
+    height: 600px;
+    width: 1200px;
+}
+
+
+/* section for location boxes */
+
+.location-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin-top: 15px;
+}
+
+
+/* individual location boxes */
+
+.location-box {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 285px;
+    opacity: 1;
+}
+
+.location-box h3 {
+    margin-bottom: 10px;
+}
+
+.location-header {
+    background-color: transparent;
+    margin-bottom: 0;
+    margin-top: -65px;
+}
+
+
+/* middle box for margin control */
+
+.middle-box {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+/* === CONTACT SECTION STYLES === */
+
+.contact {
+    height: 200px;
+    font-style: normal;
+    margin-top: -18px;
+}
+
+.email {
+    padding-top: 8px;
+}
+
+
+/* === FOOTER STYLES === */
+
+.copyright {
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 0;
+}
